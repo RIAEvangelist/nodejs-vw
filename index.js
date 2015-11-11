@@ -22,6 +22,9 @@ vw.prototype.run= function(request){
 
 vw.prototype.command= function(){
     var file= process.argv[2];
+    if (!file) {
+        return; 
+    }
     if(file.substring(0,2)=="--"){
         // Son opciones de jx o nodejs ...
         return;
