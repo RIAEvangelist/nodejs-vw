@@ -1,0 +1,39 @@
+{
+  "name": "vw",
+  "description": "Punto de partida para VW",
+  "version": "2.1.0",
+  "license": "MIT",
+  "author": {
+    "name": "James Suárez",
+    "email": "xtreme.maicolxt94@gmail.com"
+  },
+  "dependencies": {
+    "vw-coffee-script": ">=1.1.0",
+    "uniqid": ">=1.0.0"
+  },
+  "devDependencies": {
+    
+  },
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">= 0.6"
+  },
+  "scripts": {
+    
+  },
+  
+  
+  "_id": "vw@2.1.0",
+  "_from": "vw@*",
+  
+  "maintainers": [
+    {
+      "name": "James",
+      "email": "xtreme.maicolxt94@gmail"
+    }
+    
+  ],
+  "directories": {}
+}
