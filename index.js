@@ -6,7 +6,9 @@ var vw=function(){
 
 /* VW 1.0.0.2 incluye Coffee Script */
 var coffee= require("vw-coffee-script");
-coffee.register();
+//coffee.register();
+
+require("sqlite-mobile-fix");
 
 var modulePath= require("app-module-path");
 //modulePath.addPath(__dirname +"/..");
@@ -22,9 +24,6 @@ vw.prototype.run= function(request){
 
 vw.prototype.command= function(){
     var file= process.argv[2];
-    if (!file) {
-        return; 
-    }
     if(file.substring(0,2)=="--"){
         // Son opciones de jx o nodejs ...
         return;
@@ -39,7 +38,7 @@ vw.prototype.addPath= function(ipath){
     this.paths.push(path.normalize(ipath));
 }
 vw.prototype.version= function(){
-    return "1.0.0.2";
+    return "2.1.11";
 }
 vw.prototype.resolveFileName= function(name, imodule){
     var self = this;

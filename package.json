@@ -1,7 +1,7 @@
 {
   "name": "vw",
   "description": "Punto de partida para VW",
-  "version": "2.1.1",
+  "version": "2.1.11",
   "license": "MIT",
   "author": {
     "name": "James Suárez",
@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "vw-coffee-script": ">=1.1.0",
-    "uniqid": ">=1.0.0"
+    "uniqid": ">=1.0.0",
+    "sqlite-mobile-fix": ">0.0.1"
   },
   "devDependencies": {
     
@@ -25,7 +26,7 @@
   },
   
   
-  "_id": "vw@2.1.0",
+  "_id": "vw@2.1.01",
   "_from": "vw@*",
   
   "maintainers": [
