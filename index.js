@@ -38,7 +38,7 @@ vw.prototype.addPath= function(ipath){
     this.paths.push(path.normalize(ipath));
 }
 vw.prototype.version= function(){
-    return "2.1.11";
+    return "2.1.111";
 }
 vw.prototype.resolveFileName= function(name, imodule){
     var self = this;
