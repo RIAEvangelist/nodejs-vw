@@ -24,7 +24,7 @@ Linux users who use the automated script please must then execute the following 
 
 ```sh
 
-    $ Sudo cp / usr / local / bin / jx / usr / bin / jx
+    $ sudo cp /usr/local/bin/jx/usr/bin/jx
 
 ```
 
@@ -35,7 +35,7 @@ Then install vw must be installed globally:
 
 ```sh
 
-    $ Jx install -g vw
+    $ jx install -g vw
 
 ```
 
