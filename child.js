@@ -1,4 +1,4 @@
-var ipc= require("node-ipc-ecma5");
+var ipc= require("node-ipc");
 ipc.config.silent= true;
 
 var vw= require("./lib/vw");

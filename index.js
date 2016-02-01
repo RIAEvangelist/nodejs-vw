@@ -1,15 +1,11 @@
 var os= require("os");
 var mobile= os.platform()=="android" || os.platform()=="ios";
 var singleinstance= require("single-instance");
-
-// Debido al manejo de permisos en Linux, se hace diferenciación entre cada usuario ...
-var locker = new singleinstance(process.env.USER + 'vox-webkit');
-
-
-
+var locker = new singleinstance('vox-webkit');
 var cp= require("child_process");
 var vw= require("./lib/vw.js");
 vw.addPath(__dirname + "/node_modules/");
+
 var continuer= function(){
     /*
     console.log(process.stdin);
