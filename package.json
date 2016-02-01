@@ -1,7 +1,7 @@
 {
   "name": "vw",
   "description": "Punto de partida para VW",
-  "version": "2.1.41",
+  "version": "2.1.49",
   "license": "MIT",
   "author": {
     "name": "James Suárez",
@@ -14,14 +14,14 @@
     "sqlite-mobile-fix": ">=0.0.1",
     "chalk": ">=1.1.1",
     "mime-types":">=1.1.7",
-    "node-ipc":">=5.0.0",
+    "node-ipc-ecma5":">=5.0.0",
     "single-instance":">=0.0.1",
     "utf8": ">=2.1.1",
     "vw-server":">=2.1.41",
     "vw-installer": ">=0.0.01"
   },
   "devDependencies": {
-    
+
   },
   "engines": {
     "node": ">= 0.6"
@@ -33,16 +33,16 @@
     "type":"git",
     "url": "https://github.com/voxsoftware/nodejs-vw"
   },
-  
+
   "_id": "vw@2.1.34",
   "_from": "vw@*",
-  
+
   "maintainers": [
     {
       "name": "James",
       "email": "xtreme.maicolxt94@gmail"
     }
-    
+
   ],
   "directories": {}
 }
