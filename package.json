@@ -14,7 +14,7 @@
     "sqlite-mobile-fix": ">=0.0.1",
     "chalk": ">=1.1.1",
     "mime-types":">=1.1.7",
-    "node-ipc-ecma5":">=5.0.0",
+    "node-ipc":"5.2.0",
     "single-instance":">=0.0.1",
     "utf8": ">=2.1.1",
     "vw-server":">=2.1.41",
